@@ -24,7 +24,7 @@
 
 .name { 
     padding: 34px 0;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
 }
 
 .name__name { 
@@ -86,7 +86,7 @@
     background-color: #FF2021;
     width: 195px; 
     color: aliceblue;
-    margin-left: 8px;
+    margin-left: 12px;
 }
 
 .nav__mail a {
