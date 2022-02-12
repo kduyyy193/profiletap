@@ -68,7 +68,7 @@
 
 
 .nav__contact, .nav__mail { 
-    padding: 8px 15%;
+    padding: 8px 20%;
 }
 
 .nav__contact a, .nav__mail a { 
@@ -86,7 +86,6 @@
     background-color: #FF2021;
     width: 195px; 
     color: aliceblue;
-    padding-right: 200px;
 }
 
 .nav__mail a {
