@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Profile ~ </title>
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <div class="avtar">
+                <div class="avtar__img">
+                    <img src="./assets/img/avt.jpg" alt="My avt">
+                </div>
+            </div>
+            <div class="name">
+                <div class="name__name">
+                    Nguyễn Khánhh Duy 
+                </div>
+                <div class="name__icon">
+                </div>  
+                <div class="info">
+                    <div class="info__text">
+                        <a href="https://www.nctu.edu.vn/" class="inf__img">
+                            Sinh viên ĐH Nam Cần Thơ 
+                            <img src="./assets/img/825_fw_LOGO-DNC.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+        <div id="nav">
+            <div class="nav__contact">
+                <a href="tel:0985308170">Call me</a>
+                
+                <i class="fas fa-phone nav__contact-icon"></i>
+            </div>
+            <div class="nav__mail">
+                <a href="mailto:jinklolfunny1@gmail.com">Email</a>
+                <i class="fas fa-envelope"></i>
+            </div>
+        </div>
+        <div id="container">
+            <div class="socials">
+               <div class="social">
+                   <a href="https://www.facebook.com/khanhhduy193">
+                       <div class="social__icon">
+                            <i class="fab fa-facebook"></i>
+                       </div>
+                       <div class="social__name">
+                            Facebook
+                       </div>
+                   </a>
+               </div> 
+               <div class="social">
+                <a href="https://www.instagram.com/kduyy.391/">
+                    <div class="social__icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="social__name">
+                         Instagram
+                    </div>
+                </a>
+            </div> 
+            <div class="social">
+                <a href="https://zalo.me/13156776933">
+                    <div class="social__icon">
+                            <img src="./assets/img/zalo.png" alt="">
+                    </div>
+                    <div class="social__name">
+                         Zalo
+                    </div>
+                </a>
+            </div> 
+            <div class="social">
+                <a href="https://kduyyy193.github.io/tec-fuboys/">
+                    <div class="social__icon">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <div class="social__name">
+                         Tec-fu boys
+                    </div>
+                </a>
+            </div> 
+            </div>
+        </div>
+    
+    </div>
+    <div class="music">
+        <div id="icon">
+            <p>Click to listen</p> 
+            <i class="far fa-play-circle" ></i>
+        </div>
+    </div>
+    <audio id="song" src="./assets/music/SI MÊ EM - KOO x NGUYÊN x VĨNH HOÀNG (prod. BOYZED).mp3" type="audio/mp3"></audio>
+</div>
+</body>
+<script>
+var song = document.getElementById("song");
+var icon = document.getElementById("icon");
+icon.onclick = function() { 
+    if(song.paused) { 
+        song.play();
+        icon.innerHTML = "<p>Click to listen</p> <i class=\"far fa-pause-circle\"></i>";
+    } else { 
+        song.pause();
+        icon.innerHTML = "<p>Click to listen</p> <i class=\"far fa-play-circle\"></i>";
+    }
+}
+</script>
+</body>
+</html>

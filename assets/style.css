@@ -1,0 +1,172 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gideon Roman', cursive;
+}
+
+#header {
+    height: 120px;
+    background-color: #43495F;
+    display: flex;
+}
+
+.avtar { 
+    padding: 24px;
+}
+
+.avtar__img img { 
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    border: 1px solid #f3f3f3;
+}
+
+.name { 
+    padding: 34px 0;
+    letter-spacing: 1px;
+}
+
+.name__name { 
+    font-weight: 600;
+    margin-bottom: 2px;
+    color: aliceblue;
+}
+
+.inf__img img { 
+    width: 16px;
+    animation: Blink 0.8s ease infinite alternate;
+}
+
+
+@keyframes Blink { 
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0,5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.info__text a img { 
+    position: absolute;
+    margin: 2px 12px;
+}
+
+.info__text a { 
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 12px;
+}
+
+#nav {
+    display: flex;
+}
+
+
+.nav__contact, .nav__mail { 
+    padding: 8px 15%;
+}
+
+.nav__contact a, .nav__mail a { 
+    text-decoration: none;
+    color: #000 ;
+}
+
+.nav__contact:hover, 
+.nav__mail:hover  { 
+    opacity: 0.7;
+}
+
+
+.nav__mail { 
+    background-color: #FF2021;
+    width: 195px; 
+    color: aliceblue;
+}
+
+.nav__mail a {
+    color: aliceblue;
+}
+
+#container { 
+    border-top: 1px solid #000;
+}
+
+.social {
+    background-color: #fff;
+    border-bottom: 0.001px rgb(233, 212, 212) dashed;
+}
+
+.social:hover { 
+    background-color: #f4f4f4;
+}
+
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    text-decoration: none;
+    color: #000;
+}
+
+.social__icon i {
+    margin-right: 8px;
+}
+
+.social__icon img { 
+    width: 20px;
+    margin-right: 4px;
+    background-color: #000;
+}
+
+#hobbies {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.hobbies__img img {
+    width: 100%;
+}
+
+.music {
+    position: absolute;
+    right: 27%;
+    bottom: 40%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #f35151;
+    background: #FF2021;
+    border-radius: 8px;
+    margin-right: 1%;
+    padding: 4px 0;
+  }
+  
+  .music p {
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  .music img {
+    width: 36px;
+    cursor: pointer;
+  }
+  
+  #icon {
+    color: #fff;
+    font-size: 16px;
+    padding-top: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
