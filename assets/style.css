@@ -68,8 +68,9 @@
 
 
 .nav__contact, .nav__mail { 
-    padding: 8px 13%;
-    margin-left: 2.7px;
+    padding: 8px 12%;
+    margin-left: 12.6px;
+    display: flex;
 }
 
 .nav__contact a, .nav__mail a { 
